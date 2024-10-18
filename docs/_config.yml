@@ -8,5 +8,4 @@ plugins:
 logo: assets/images/logo.png
 
 markdown: kramdown
-source: docs
 repository: hypha-rp/hypha-rp.github.io
