@@ -1,0 +1,17 @@
+{
+    "extends": [
+      "config:recommended"
+    ],
+    "packageRules": [
+      {
+        "matchPackagePatterns": ["*"],
+        "groupName": "all dependencies",
+        "groupSlug": "all-dependencies",
+        "schedule": ["at any time"]
+      }
+    ],
+    "automerge": false,
+    "labels": ["dependencies, maintenance"],
+    "prHourlyLimit": 2,
+    "prConcurrentLimit": 10
+}
