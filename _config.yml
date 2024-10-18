@@ -1,7 +1,12 @@
-title: hypha-rp.github.io
-description: hypha
+title: hypha
 baseurl: ""
 url: "https://hypha-rp.github.io"
-theme: minima
+remote_theme: pages-themes/minimal
+plugins:
+  - jekyll-remote-theme
+  - github-pages
+logo: assets/images/logo.png
 
 markdown: kramdown
+source: docs
+repository: hypha-rp/hypha-rp.github.io
