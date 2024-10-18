@@ -1,0 +1,7 @@
+title: hypha-rp.github.io
+description: hypha
+baseurl: ""
+url: "https://hypha-rp.github.io"
+theme: minima
+
+markdown: kramdown
