@@ -1,5 +1,5 @@
 ---
-layout: general
+layout: default
 title: Deployment
 ---
 
