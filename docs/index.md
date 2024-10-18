@@ -12,13 +12,13 @@ title: Home
 ## Table of Contents
 
 - [Getting Started](general/getting-started.html)
-- [Deployment](general/deployment.html)
+- [Deployment](deployment/deployment.html)
 - [Contribution Guide](contribution/contribution-guide.html)
 - [Repositories](repos/repos.html)
 
 ## About Hypha
 
-Like hypha and mycelium, the different products that make up a 'stack' or a list of SKUs do not exist in separate vacuums; they are part of something larger. Hypha is a robust solution designed to help you track test results across a vast network of interconnected products and repositories. This platform provides users with the tools to create and manage products, establish integrations, and report tests.
+Like hypha and mycelium, the different products that make up a 'stack' or a list of SKUs are a part of something larger. Hypha is a robust solution designed to help you track test results across a network of interconnected products and repositories. This platform provides users with the tools to create and manage products, establish integrations, and report tests.
 
 ### Future Plans and Ideas
 
@@ -33,7 +33,7 @@ Like hypha and mycelium, the different products that make up a 'stack' or a list
     - Introduce a user-friendly query language that avoids vulnerabilities like SQL injection. This feature could facilitate advanced querying of test results.
 5. **Enable Jira Ticket Creation for Failed Tests**
     - Provide functionality for users to automatically create Jira tickets for any failed tests associated with a product or integration, streamlining issue tracking and resolution.
-6. **Integrate Jira for Bug Snapshotting**
+6. **Integrate Jira for Bug Snap-shotting**
     - Establish a connection to Jira, allowing users to view a snapshot of their bugs directly within the product interface, enhancing visibility and management of testing-related issues.
 
 ## Contact
