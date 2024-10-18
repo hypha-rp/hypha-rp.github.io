@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  jekyll:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4001:4001"
+    volumes:
+      - .:/workspace
+    environment:
+      - PAGES_REPO_NWO=hypha-rp/hypha-rp.github.io
+    command: bundle exec jekyll serve --host 0.0.0.0 --port 4001
