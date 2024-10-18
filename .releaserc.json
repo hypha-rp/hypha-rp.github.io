@@ -2,7 +2,17 @@
     "branches": ["main"],
     "tagFormat": "v${version}",
     "plugins": [
-      "@semantic-release/commit-analyzer",
+        [
+            "@semantic-release/commit-analyzer",
+            {
+              "releaseRules": [
+                { "type": "docs", "scope": "docs/*", "release": "patch" },
+                { "type": "refactor", "release": "minor" },
+                { "type": "style", "release": "patch" },
+                { "type": "release", "release": "major" }
+              ]
+            }
+          ],
       "@semantic-release/release-notes-generator",
       "@semantic-release/github",
       [
