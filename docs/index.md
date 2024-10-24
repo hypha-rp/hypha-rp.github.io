@@ -12,9 +12,7 @@ title: Home
 ## Table of Contents
 
 - [Getting Started](general/getting-started.html)
-- [Deployment](deployment/deployment.html)
-- [Contribution Guide](contribution/contribution-guide.html)
-- [Repositories](repos/repos.html)
+    - [Demo](general/demo/demo.html)
 
 ## About Hypha
 
